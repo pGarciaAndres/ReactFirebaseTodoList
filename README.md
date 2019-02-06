@@ -6,6 +6,8 @@
 
 - https://react.semantic-ui.com/
 
+![alt text](https://cdn1.imggmi.com/uploads/2019/2/6/790d5b8ed850e48916ca5889e3f7c1ce-full.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
