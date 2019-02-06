@@ -1,0 +1,6 @@
+{
+
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+}

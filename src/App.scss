@@ -1,0 +1,66 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+
+  .ui.divided.list > .item {
+    border-top: none;
+  }
+
+  i.icon,
+  i.icons {
+    font-size: 1.5em;
+    width: 0.18em;
+  }
+
+  .ui.button > .icon:not(.button) {
+    height: .7em;
+    opacity: 1;
+    width: 1.35em;
+  }
+
+  .ui.primary.button {
+    --buttonColor: #ff6645;
+    --hoverColor: #fa2a00;
+
+    &.doneButton {
+      --buttonColor: #aaa;
+      --hoverColor: #999;
+    }
+
+    background-color: var(--buttonColor);
+
+    &:hover {
+      background-color: var(--hoverColor);
+    }
+
+    &:active,
+    &:visited,
+    &:focus {
+      background-color: var(--hoverColor);
+    }
+  }
+
+  .doneTask {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  .editTask {
+    text-decoration: none;
+  }
+}
+
+.ui {
+  &.action.input {
+    width: 100%;
+  }
+}
+
+.status-done {
+  text-decoration: line-through;
+}
+
+.center-text input {
+  text-align: center !important;
+}
